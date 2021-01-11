@@ -3,7 +3,11 @@ header{
     margin:auto;
     text-align:center;
     padding:5px;
+    font-size: 25;
+    background:white;
+   
 }
+
 nav{
     position:relative;
     margin:auto;
@@ -28,7 +32,34 @@ nav ul li a{
     color:white;
     text-decoration:none;
 }
+
 section{
     position:relative;
-    padding:20px
+    height:1500;
+    padding:5px;
+    background:black;
 }
+
+article{
+    position: relative;
+    background:black;
+    padding: 20px;
+}
+
+
+
+<style>
+#Auriculares1 {position:absolute; bottom:20px}
+#Auriculares1 {position:absolute; right:20%}
+</style>
+
+<style>
+#Auriculares2 {position:absolute; bottom:20px}
+#Auriculares2 {position:absolute; right:45%}
+</style>
+
+
+<style>
+#Auriculares3 {position:absolute; bottom:20px}
+#Auriculares3 {position:absolute; right:70%}
+</style>
