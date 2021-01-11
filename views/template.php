@@ -8,7 +8,7 @@
     <body>
 
         <header>
-        <h1>LOGOTIPO</h1>
+        <h1><img src="images/Logo1.jpg"></h1>
         </header> 
 
         <?php
