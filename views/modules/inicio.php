@@ -12,16 +12,33 @@
 </header>
 
 <section>
-<br><br><br><br>
-    <div>
-        <img id="Auriculares1" img src="images/Auriculares1.jfif" width="150" height="150">
+    <br><br>
+    <div class="container">
+        <div class="card">
+            <img src="images/Auriculares1.jfif" width="100" height="100">
+            <p>MELENDEZ</p>
+            <a href="#">Leer más</a>
+        </div>
+    
+
+   
+        <div class="card">
+            <img src="images/Auriculares2.jfif" width="100" height="100">
+            <p>MARICA</p>
+            <a href="#">Leer más</a>
+        </div>
+    
+
+    
+        <div class="card">
+            <img src="images/Auriculares3.jfif">
+            <p>pto</p>
+            <a href="#">Leer más</a>
+        </div>
     </div>
-    <div>
-        <img id="Auriculares2" img src="images/Auriculares2.jfif" width="150" height="150">
-    </div>
-    <div>
-        <img id="Auriculares3" img src="images/Auriculares3.jfif" width="150" height="150">
-    </div>
+
+
+
 </section>
 
 
