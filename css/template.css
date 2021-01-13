@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Barrio|Montserrat:700');
+
+
 header{
     position:relative;
     margin:auto;
@@ -35,7 +38,8 @@ nav ul li a{
 
 section{
     position:relative;
-    height:1500;
+    height:auto;
+    weight:auto;
     padding:5px;
     background:black;
 }
@@ -83,14 +87,34 @@ p1 {
 }
 
 .container .card img{
-    width: 330px;
-    height: 220px;
+    width: 200px;
+    height: 200px;
 }
 
 
 .container .card h4{
     font-weight: 600;
 }
+
+.container .card button{
+  font-family: 'Montserrat', sans-serif;
+  margin: auto;
+  padding: 1rem;
+  text-transform: uppercase;
+  background-color: #00d166;
+  border: none;
+  border-radius: 3px;
+  box-shadow: 1px 1px 10px rgba(50,50,50,.4);
+  transition: .3s all ease;
+  letter-spacing: .1rem;
+  font-size: .85rem;
+  position: relative;
+  
+  top: 0;
+  right: 0;
+  
+}
+
 
 .container .card p{
     color: white;
