@@ -92,28 +92,27 @@ p1 {
 }
 
 
+
 .container .card h4{
     font-weight: 600;
 }
 
-.container .card button{
-  font-family: 'Montserrat', sans-serif;
-  margin: auto;
-  padding: 1rem;
-  text-transform: uppercase;
-  background-color: #00d166;
-  border: none;
-  border-radius: 3px;
-  box-shadow: 1px 1px 10px rgba(50,50,50,.4);
-  transition: .3s all ease;
-  letter-spacing: .1rem;
-  font-size: .85rem;
-  position: relative;
+
+.button{
+    font-family: 'Montserrat', sans-serif;
+    margin: 100px;
+    padding: 1rem;
+    text-transform: uppercase;
+    background-color: #00d166;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 1px 1px 10px rgba(50,50,50,.4);
+    transition: .3s all ease;
+    letter-spacing: .1rem;
+    font-size: .85rem;
+    position: relative;
+  }
   
-  top: 0;
-  right: 0;
-  
-}
 
 
 .container .card p{
@@ -126,7 +125,7 @@ p1 {
 .container .card a {
     font-weight: 500;
     text-decoration: none;
-    color:red;
+    color:white;
 }
 
 
