@@ -12,7 +12,16 @@
 </header>
 
 <section>
-    <br><br><br><br>
+    <div class="container">
+    <div class="webdesigntuts-workshop">
+	<form action="" method="">		    
+		<input type="Buscar" placeholder="Buscando...">		    	
+		<button>Buscar</button>
+    </form>
+    </div>
+    </div>
+    <br><br>
+
     <div class="container">
         <div class="card">
             <img src="images/Producto1.jpg">
@@ -95,8 +104,7 @@
         </div>
     </div>
 
-
-
+    
 </section>
 
 </body>
