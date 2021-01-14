@@ -3,11 +3,15 @@
 
 header{
     position:relative;
-    margin:auto;
+	margin:auto;
+	height: auto;
+	weight: auto;
     text-align:center;
     padding:5px;
     font-size: 25;
-    background:white;
+	background:white;
+    font-family: 'Montserrat', sans-serif;
+	
    
 }
 
@@ -141,8 +145,8 @@ p1 {
 
 
 .webdesigntuts-workshop {
-	background: #151515;
-	height: auto%;
+	background: black;
+	height: auto;
 	position: relative;
 	text-align: center;
 	width: auto%;
@@ -160,7 +164,7 @@ p1 {
 }
 
 .webdesigntuts-workshop:before {
-	background: #444;
+	background: black;
 	background: -webkit-linear-gradient(left, #151515, #444, #151515);
 	background: -moz-linear-gradient(left, #151515, #444, #151515);
 	background: -o-linear-gradient(left, #151515, #444, #151515);
