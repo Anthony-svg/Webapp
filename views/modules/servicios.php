@@ -1,3 +1,11 @@
-<?php
- echo "estas en servicios";
-?>
+<html>
+
+<body>
+
+Estas en servicios
+
+</body>
+
+
+
+</html>
