@@ -1,7 +1,6 @@
 <html>
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, user-scalable = no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, shrink-to-fit=no">
+    <meta charset="UTF-8">
     <title>Game Shop</title>
     <link rel=StyleSheet href="../css/productos.css" typr="text/css">
 </head>
@@ -22,8 +21,8 @@
 			<br>
 </nav>
 		<div class="noticia">
-		<img class="izquierda" src="../images/Producto1.jpg" >
-<aside>AURICULAR GAMING HAVIT HV-H2158U CONEXIÓN USB 7.1 
+		<img class="izquierda" src="../images/Producto2.jpg" >
+<aside>AURICULAR GAMING HAVIT HV-H2168D CONEXIÓN USB 7.1 
 	<br>
 	<br>		
 				Tipo:Over Ear / Circumaurales<br>

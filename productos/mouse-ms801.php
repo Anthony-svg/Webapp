@@ -1,7 +1,6 @@
 <html>
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, user-scalable = no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, shrink-to-fit=no">
+    <meta charset="UTF-8">
     <title>Game Shop</title>
     <link rel=StyleSheet href="../css/productos.css" typr="text/css">
 </head>
@@ -22,20 +21,23 @@
 			<br>
 </nav>
 		<div class="noticia">
-		<img class="izquierda" src="../images/Producto1.jpg" >
-<aside>AURICULAR GAMING HAVIT HV-H2158U CONEXIÓN USB 7.1 
+		<img class="izquierda" src="../images/Producto5.jpg" >
+<aside>MOUSE GAMING ÓPTICO REGULABLE HV-MS801
 	<br>
-	<br>		
-				Tipo:Over Ear / Circumaurales<br>
-				Conectividad:	Alámbrico<br>
-				Cancelación de ruido:	NO<br>
-				Peso:	260 grm<br>
-				Colores:	Blanco, Negro<br>
-				Autonomía de batería:	No tiene<br>
-				Tipo de material:	Plástico<br>
-				Componentes incluidos:	Audio (3,5 mm)<br>
-				Tipo de contector:	Auxiliar jack 3.5mm<br>
-				Respuesta de frequencia:	20Hz – 20Khz</aside>            
+    <br>		
+    
+Altura: 115 mm<br>
+Anchura: 72 mm<br>
+Profundidad: 37 mm<br>
+Peso: 82 g, sólo mouse<br>
+Longitud de cable: 2,10 m<br>
+Resolución: 200 – 2.500 dpi<br>
+Sin suavizado/aceleración/filtros<br>
+Aceleración máx.: >20 G2Pruebas realizadas sobre alfombrilla de mouse para juegos<br>
+Velocidad máx.: >150 ips3Pruebas realizadas sobre alfombrilla de mouse para juegos<br>
+Formato de datos USB: 16 bits/eje<br>
+Velocidad de respuesta USB: 1000 Hz (1 ms)<br>
+Microprocesador: 32 bits ARM</aside>            
 				<div class="reset"></div>
 				</div>
     </body>
