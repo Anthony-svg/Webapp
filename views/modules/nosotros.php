@@ -18,11 +18,10 @@
                         <div id="content-wrapper" class="left-column col-xs-12 col-sm-8 col-md-9">
                             <section id="main">
                                 <section id="content" class="page-content page-cms page-cms-4">
-                                    <p style="text-align: justify,center;">
+                                    <p style="text-align: justify;">
                                     <span style="font-family:'times new roman', times;font-size:12pt;">
                                         <strong>Nombre de la empresa</strong>
-                                        , (Sistemas y Programas, HostingSupremo, SyposTech) empresas 
-                                        dedicadas a la venta de productos y servicios informáticos con los 
+                                        ,empresa dedicadas a la venta de productos y servicios informáticos con los 
                                         más altos estándares de calidad a precios muy bajos, nuestra 
                                         empresa iniciada en el año 2006 nos ha dado hasta ahora más de 14 
                                         años de experiencia en el mercado Ecuatoriano con lo cual podemos 
@@ -32,6 +31,38 @@
                                         internacional brindado de esta manera un producto y servicio de 
                                         excelencia y con garantía real.
                                     </span>
+                                    </p>
+                                    <p></p>
+                                    <p></p>
+                                    <p style="text-align: center;">
+                                        <span style="font-family: 'Times New Roman', Times, serif; font-size: 12pt;">
+                                        <strong>Nuestra Misión</strong>
+                                        </span>
+                                    </p>
+                                    <p style="text-align: justify;">
+                                        <span style="font-family: 'Times New Roman'; font-size: 12pt;">
+                                            Ofrecer tecnología de punta a precios muy bajos, brindarles a nuestros 
+                                            clientes una atención eficaz y personalizada y Comercializar, partes y 
+                                            piezas de equipos de computación y soluciones en informática, comunicación 
+                                            y entretenimiento etc, para satisfacer las necesidades del mercado 
+                                            nacional, con marcas reconocidas por su prestigio mundial, brindando 
+                                            productos con garantías reales y asesoría personalizada.
+                                        </span>
+                                    </p>
+                                    <p></p>
+                                    <p></p>
+                                    <p style="text-align: center;">
+                                        <span style="font-family: 'Times New Roman', Times, serif; font-size: 12pt;">
+                                        <strong>Nuestra Visión</strong>
+                                        </span>
+                                    </p>
+                                    <p style="text-align: justify;">
+                                        <span style="font-family: 'Times New Roman'; font-size: 12pt;">
+                                            Ser una empresa lider en distribución a nivel nacional de productos 
+                                            tecnológicos, brindar servicios con excelencia, enseñar y ser responsables 
+                                            en nuestras labores de esta manera seguir mejorando cada día por el 
+                                            progreso de nuestro país!.
+                                        </span>
                                     </p>
 
                                 </section>
