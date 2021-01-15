@@ -9,9 +9,13 @@ header{
     text-align:center;
     padding:5px;
     font-size: 25;
+<<<<<<< HEAD
 	background:white;
     font-family: 'Montserrat', sans-serif;
 	
+=======
+    background:rgb(white);
+>>>>>>> 2afe6444d10aab1bc45ab2a064e772b724f6aca7
    
 }
 
@@ -32,7 +36,7 @@ nav ul{
 nav ul li{
     display:inline-block;
     width:24%;
-    line-height:50px;
+    line-height:30px;
     list-style:none;
 }
 nav ul li a{

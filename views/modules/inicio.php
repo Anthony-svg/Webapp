@@ -27,7 +27,7 @@
             <img src="images/Producto1.jpg">
             <p>AURICULAR GAMING HAVIT HV-H2158U CONEXIÓN USB 7.1</p>
             <br>
-            <a href="Productos/Producto1.php" class="button" alt="Button">Leer más</a>
+            <a href="Productos/auricular-h2158u.php" class="button" alt="Button">Leer más</a>
         </div>
     
 
