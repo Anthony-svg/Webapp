@@ -72,7 +72,7 @@
             <img src="images/Producto6.jpg">
             <p>GAMING MOUSE HV-MS798 USB PROGRAMABLE DE 8 TECLAS</p>
             <br>
-            <a href="#" class="button" alt="Button">Leer más</a>
+            <a href="Productos/mouse-ms789.php" class="button" alt="Button">Leer más</a>
         </div>
     </div>
 
