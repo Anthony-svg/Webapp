@@ -45,7 +45,7 @@
             <img src="images/Producto3.jpg">
             <p>AURICULARES GAMING HV-H2163U CON PUERTO USB 7.1</p>
             <br>
-            <a href="#" class="button" alt="Button">Leer más</a>
+            <a href="Productos/auricular-h2163u.php" class="button" alt="Button">Leer más</a>
         </div>
     </div>
 
