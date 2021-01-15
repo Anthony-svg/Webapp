@@ -23,8 +23,6 @@
 		<div class="noticia">
 		<img class="izquierda" src="../images/Producto4.jpg" >
 <aside>MOUSE GAMING ÓPTICO REGULABLE HV-MS783
-
-
 	<br>
     <br>		
     

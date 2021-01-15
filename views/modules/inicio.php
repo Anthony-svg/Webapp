@@ -54,7 +54,7 @@
             <img src="images/Producto4.jpg">
             <p>MOUSE GAMING ÓPTICO REGULABLE HV-MS783</p>
             <br>
-            <a href="Productos/mouse-h2163u.php" class="button" alt="Button">Leer más</a>
+            <a href="Productos/mouse-ms783.php" class="button" alt="Button">Leer más</a>
         </div>
     
 
