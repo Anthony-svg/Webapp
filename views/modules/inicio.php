@@ -82,7 +82,7 @@
             <img src="images/Producto7.jpg">
             <p>MOUSE PAD GAMER GAMING HV-MP837</p>
             <br>
-            <a href="#" class="button" alt="Button">Leer más</a>
+            <a href="Productos/mousepad-mp837.php" class="button" alt="Button">Leer más</a>
         </div>
     
 
@@ -91,7 +91,7 @@
             <img src="images/Producto8.jpg">
             <p>SILLA GAMER HV-GC901 EN VARIOS COLORES</p>
             <br>
-            <a href="#" class="button" alt="Button">Leer más</a>
+            <a href="Productos/silla-gamer-gc901.php" class="button" alt="Button">Leer más</a>
         </div>
     
 
@@ -100,7 +100,7 @@
             <img src="images/Producto9.jpg">
             <p>TECLADO GAMING HV-KB417L RETROILUMINADO</p>
             <br>
-            <a href="#" class="button" alt="Button">Leer más</a>
+            <a href="Productos/teclado-kb417l.php" class="button" alt="Button">Leer más</a>
         </div>
     </div>
 
