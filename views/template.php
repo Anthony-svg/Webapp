@@ -1,7 +1,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Game Shop</title>
+    <!--<title>Game Shop</title>-->
     <link rel=StyleSheet href="css/template.css" typr="text/css">
 </head>
 
