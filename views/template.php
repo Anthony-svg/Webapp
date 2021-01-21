@@ -11,15 +11,16 @@
         <h1><img id="Logo1" img src="images/Logo1.jpg" width="100" height="100"></h1>
         </header> 
 
-        <?php
-            include "modules/navigation.php";
-        ?>
+        <nav>
+            <ul>
+                <li> <a href="index.php?action=inicio"> Inicio</a> </li>
+                <li> <a href="index.php?action=nosotros"> Nosotros</a> </li>
+                <li> <a href="index.php?action=servicios"> Compras</a> </li>
+                <li> <a href="index.php?action=contactanos"> Contactanos</a> </li>
+                <li> <a href=""> Iniciar Sesión</a> </li>
+            </ul>
+    </nav>
 
-        <section>
-        <?php
-        $mvc = new MvcController();
-        $mvc -> enlacesPaginasController();
-        ?>
 
         
 

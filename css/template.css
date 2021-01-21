@@ -17,7 +17,7 @@ nav{
     position:relative;
     margin:auto;
     width:100%;
-    height:auto;
+    height:100px;
     background:black;
 }
 nav ul{
@@ -52,6 +52,10 @@ article{
     position: relative;
     background:black;
     padding: 5px;
+}
+
+body{
+	text-align: center;
 }
 
 

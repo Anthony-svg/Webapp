@@ -3,11 +3,57 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, user-scalable = no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, shrink-to-fit=no">
     <title>Nosotros</title>
-    <link rel=StyleSheet href="css/nosotros.css" typr="text/css">
-    <link rel=StyleSheet href="bootstrap/css/bootstrap.min.css" typr="text/css">
+    <link rel=StyleSheet href="../../css/nosotros.css" typr="text/css">
+   
+    
 </head>
 
-<body id="cms">
+<body>
+<header>
+        <h1><img id="Logo1" img src="../../images/Logo1.jpg" width="100" height="100"></h1>
+</header> 
+<?php
+            require_once("../../models/isLogin.php");
+
+            if($estado){         
+                   
+                    ?>
+                        <nav>
+                        <ul>
+                        <li> <a href="inicio.php"> Inicio</a> </li>
+                        <li> <a href="nosotros.php"> Nosotros</a> </li>
+                        <li> <a href=""> Compras</a> </li>
+                        <li> <a href="contactanos.php"> Contactenos</a> </li>
+                        
+                        <br><br>
+                        <li> <a href="../../models\logout.php"> Cerrar sesión</a> </li>
+                       
+                    
+                    </ul>
+                </nav>
+            <br><br>
+        <?php
+         echo "Bienvenido/a ";
+         echo $_SESSION['nom'];
+            }else{
+            
+                ?>
+                    <nav>
+                    <ul>
+                    <li> <a href="inicio.php"> Inicio</a> </li>
+                    <li> <a href="nosotros.php"> Nosotros</a> </li>
+                    <li> <a href="contactanos.php"> Contactenos</a> </li>
+                    <br><br>
+                    <li> <a href="login.php"> Iniciar Sesión</a> </li>
+                   
+                
+                </ul>
+            </nav>
+
+                <?php
+                
+            }
+        ?>
         <main id="page">
             <header id="header">
                 <h1>Quienes Somos</h1>
