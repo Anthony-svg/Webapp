@@ -1,3 +1,7 @@
+<?php
+include '../../models/config.php';
+include '../../models/conexion.php';
+?>
 <html>
 <head>
     <meta charset="UTF-8">

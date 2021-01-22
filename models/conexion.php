@@ -1,20 +1,15 @@
 <?php
-$servername="localhost"; 
-$username="root";
-$password="";
-$dbname="productos"; // nombre de la BD
-$conn= mysqli_connect($servername,$username,$password,$dbname);
-$mysqli = new mysqli($servername,$username,$password,$dbname);
-if(!$mysqli)
-{
-    die("Error en la conexion".mysqli_connect_error());
-}
-function utf8_converter($array)
-{
-    array_walk_recursive($array, function(&$item) {
-        $item =utf8_encode($item);
-    });
-    return json_encode($array);
-}
 
+$servidor="mysql:dbname=".BD.";host=".SERVIDOR;
+
+try{
+
+$pdo = new PDO($servidor,USUARIO,PASSWORD,
+    array(PDO::MYSQL_ATTR_INIT_COMMAND=>"SET NAMES utf8"));
+echo "<script>alert('Conectado..')</script>";
+
+}catch(PDOException $e){
+echo "<script>alert('Error..')</script>";
+}
+    
 ?>
