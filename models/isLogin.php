@@ -1,7 +1,7 @@
 <?php
 
 
-            session_start();
+           // session_start();
             
 
         
@@ -11,4 +11,3 @@
                 $estado = true;
                
             }
-    

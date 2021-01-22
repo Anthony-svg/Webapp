@@ -24,11 +24,6 @@
                         <li> <a href="nosotros.php"> Nosotros</a> </li>
                         <li> <a href="compras.php"> Compras</a> </li>
                         <li> <a href="contactanos.php"> Contactenos</a> </li>
-                        
-                        <br><br>
-                        <li> <a href="../../models\logout.php"> Cerrar sesión</a> </li>
-                       
-                    
                     </ul>
                 </nav>
     <br><br>
@@ -44,10 +39,6 @@
                     <li> <a href="nosotros.php"> Nosotros</a> </li>
                     <li> <a href="compras.php">Compras</a> </li>
                     <li> <a href="contactanos.php"> Contactenos</a> </li>
-                    <br><br>
-                    <li> <a href="login.php"> Iniciar Sesión</a> </li>
-                   
-                
                 </ul>
             </nav>
 
