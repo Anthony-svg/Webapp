@@ -1,7 +1,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Inicio</title>
+    <title>FK Gamer</title>
     <link rel=StyleSheet href="css/template.css" typr="text/css">
 </head>
 
@@ -19,7 +19,7 @@
                         <ul>
                         <li> <a href="views\modules\inicio.php"> Inicio</a> </li>
                         <li> <a href="views\modules\nosotros.php"> Nosotros</a> </li>
-                        <li> <a href=""> Compras</a> </li>
+                        <li> <a href="views\modules\compras.php"> Compras</a> </li>
                         <li> <a href="views\modules\contactanos.php"> Contactenos</a> </li>
                         
                         <br><br>
@@ -40,6 +40,7 @@
                     <li> <a href="views\modules\inicio.php"> Inicio</a> </li>
                     <li> <a href="views\modules\nosotros.php"> Nosotros</a> </li>
                     <li> <a href="views\modules\contactanos.php"> Contactenos</a> </li>
+                    <li> <a href="views\modules\compras.php"> Compras</a> </li>
                     <br><br>
                     <li> <a href="views\modules\login.php"> Iniciar Sesión</a> </li>
                    

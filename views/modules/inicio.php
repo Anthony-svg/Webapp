@@ -19,9 +19,8 @@
                         <ul>
                         <li> <a href="inicio.php"> Inicio</a> </li>
                         <li> <a href="nosotros.php"> Nosotros</a> </li>
-                        <li> <a href=""> Compras</a> </li>
+                        <li> <a href="compras.php">Compras</a> </li>
                         <li> <a href="contactanos.php"> Contactenos</a> </li>
-                        
                         <br><br>
                         <li> <a href="../../models\logout.php"> Cerrar sesión</a> </li>
                        
@@ -39,6 +38,7 @@
                     <ul>
                     <li> <a href="inicio.php"> Inicio</a> </li>
                     <li> <a href="nosotros.php"> Nosotros</a> </li>
+                    <li> <a href="compras.php">Compras</a> </li>
                     <li> <a href="contactanos.php"> Contactenos</a> </li>
                     <br><br>
                     <li> <a href="login.php"> Iniciar Sesión</a> </li>
