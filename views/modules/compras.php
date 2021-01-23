@@ -62,10 +62,12 @@ include 'carrito.php';
     <div class="container">
         <br>
 
+        <?php if($mensaje !=""){ ?>
         <div class="alert alert-success">
             <?php echo ($mensaje); ?>
-            <a href="#" class="badge badge-succes">Ver carrito</a>
+            <a href="mostrarCarrito.php" class="badge badge-succes">Ver carrito</a>
         </div>
+        <?php } ?>
 
         <div class="row">
             <?php
@@ -95,7 +97,10 @@ include 'carrito.php';
                         <input type="hidden" name="PRE_PROD" id="PRE_PROD" value="<?php echo openssl_encrypt($producto['PRE_PROD'],COD,KEY); ?>">
                         <input type="hidden" name="CANT_PROD" id="CANT_PROD" value="<?php echo openssl_encrypt(1,COD,KEY);?>">
 
-                            <button class="btn btn-primary" name="btnAccion" value="agregar" type="submit">
+                            <button class="btn btn-primary" 
+                            name="btnAccion" 
+                            value="agregar" 
+                            type="submit">
                                 Agregar al carrito
                             </button>
                         </form>

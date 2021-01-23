@@ -30,7 +30,7 @@ include 'carrito.php';
                 <li> <a href="nosotros.php">Nosotros</a> </li>
                 <li> <a href="compras.php">Compras</a> </li>
                 <li> <a href="contactanos.php"> Contactenos</a> </li>
-                <li> <a href="mostrarCarrito.php">Carrito(<?php echo (empty($_SESSION['CARRITO']))?0:count($_SESSION['CARRITO']); ?>)</a> </li>
+                <li> <a href="mostrarCarrito.php">Carrito(<?php echo (empty($_SESSION['CARRITO'])) ? 0 : count($_SESSION['CARRITO']); ?>)</a> </li>
                 <li> <a href="../../models\logout.php"> Cerrar sesión</a> </li>
             </ul>
         </nav>
@@ -46,7 +46,7 @@ include 'carrito.php';
                 <li> <a href="inicio.php"> Inicio</a> </li>
                 <li> <a href="compras.php">Compras</a> </li>
                 <li> <a href="contactanos.php"> Contactenos</a> </li>
-                <li> <a href="mostrarCarrito.php">Carrito(<?php echo (empty($_SESSION['CARRITO']))?0:count($_SESSION['CARRITO']); ?>)</a> </li>
+                <li> <a href="mostrarCarrito.php">Carrito(<?php echo (empty($_SESSION['CARRITO'])) ? 0 : count($_SESSION['CARRITO']); ?>)</a> </li>
                 <li> <a href="login.php"> Iniciar Sesión</a> </li>
             </ul>
         </nav>
@@ -58,40 +58,57 @@ include 'carrito.php';
 
     <br>
     <h3>Lista del Carrito</h3>
-    <?php 
-    if(!empty($_SESSION['CARRITO'])){ ?>
-    <table class="table table-light table-bordered">
-        <tbody>
-            <tr>
-                <th width="25%">Nombre</th>
-                <th width="10%">Cantidad</th>
-                <th width="20%">Precio</th>
-                <th width="20%">Total</th>
-                <th width="5%">--</th>
-            </tr>
-           <?php $total=0; ?>
-            <?php foreach($_SESSION['CARRITO'] as $indice=>$producto){?>
-            <tr>
-                <td width="25%"><?php echo $producto['NOMBRE']?></td>
-                <td width="10%" class="text-center"><?php echo $producto['CANTIDAD']?></td>
-                <td width="20%" class="text-center"><?php echo $producto['PRECIO']?></td>
-                <td width="20%" class="text-center"><?php echo number_format($producto['PRECIO']*$producto['CANTIDAD'],2);?></td>
-                <td width="5%"><button class="btn btn-danger" type="button">Eliminar</button></td>
-            </tr>
-            <?php $total=$total+($producto['PRECIO']*$producto['CANTIDAD']);?>
-           <?php }?> 
-            
-            <tr>
-                <td colspan="3" align="right"><h3>Total</h3></td>
-                <td align="right"><h3>$<?php echo number_format($total,2);?></h3></td>
-            </tr>    
-        </tbody>
-    </table>
-<?php }else{?>
-<div class="alert alert-success">
-No hay productos en el carrito...
-</div>
-<?php }?>
+    <?php
+    if (!empty($_SESSION['CARRITO'])) { ?>
+        <table class="table table-light table-bordered">
+            <tbody>
+                <tr>
+                    <th width="25%">Nombre</th>
+                    <th width="10%">Cantidad</th>
+                    <th width="20%">Precio</th>
+                    <th width="20%">Total</th>
+                    <th width="5%">--</th>
+                </tr>
+                <?php $total = 0; ?>
+                <?php foreach ($_SESSION['CARRITO'] as $indice => $producto) { ?>
+                    <tr>
+                        <td width="25%"><?php echo $producto['NOMBRE'] ?></td>
+                        <td width="10%" class="text-center"><?php echo $producto['CANTIDAD'] ?></td>
+                        <td width="20%" class="text-center"><?php echo $producto['PRECIO'] ?></td>
+                        <td width="20%" class="text-center"><?php echo number_format($producto['PRECIO'] * $producto['CANTIDAD'], 2); ?></td>
+                        <td width="5%">
+
+                            <form action="" method="post">
+
+                            <input type="hidden" name="ID_PROD" id="ID_PROD" value="<?php echo openssl_encrypt($producto['ID'],COD,KEY);?>">
+
+                                <button class="btn btn-danger" name="btnAccion" value="eliminar" type="submit">
+                                    ELIMINAR
+                                </button>
+
+                            </form>
+
+                        </td>
+                    </tr>
+
+                    <?php $total = $total + ($producto['PRECIO'] * $producto['CANTIDAD']); ?>
+                <?php } ?>
+
+                <tr>
+                    <td colspan="3" align="right">
+                        <h3>Total</h3>
+                    </td>
+                    <td align="right">
+                        <h3>$<?php echo number_format($total, 2); ?></h3>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    <?php } else { ?>
+        <div class="alert alert-success">
+            No hay productos en el carrito...
+        </div>
+    <?php } ?>
 
 </body>
 
