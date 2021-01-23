@@ -15,11 +15,12 @@
     <div class="container">
     <div class="webdesigntuts-workshop">
 	<form action="" method="">		    
-		<input type="Buscar" placeholder="Buscando...">		    	
-		<button>Buscar</button>
+		<input id="buscador" type="Buscar" placeholder="Buscando...">		    	
+		<button onclick="buscador()">Buscar</button>
     </form>
     </div>
     </div>
+
     <br><br>
 
     <div class="container">
@@ -106,7 +107,7 @@
 
     
 </section>
-
+<script src="js/buscador.js"></script>
 </body>
 
 </html>
