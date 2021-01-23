@@ -80,7 +80,7 @@ include 'carrito.php';
 
                             <form action="" method="post">
 
-                            <input type="hidden" name="ID_PROD" id="ID_PROD" value="<?php echo openssl_encrypt($producto['ID'],COD,KEY);?>">
+                                <input type="hidden" name="ID_PROD" id="ID_PROD" value="<?php echo openssl_encrypt($producto['ID'], COD, KEY); ?>">
 
                                 <button class="btn btn-danger" name="btnAccion" value="eliminar" type="submit">
                                     ELIMINAR
@@ -90,7 +90,7 @@ include 'carrito.php';
 
                         </td>
                     </tr>
-
+ 
                     <?php $total = $total + ($producto['PRECIO'] * $producto['CANTIDAD']); ?>
                 <?php } ?>
 
@@ -102,6 +102,37 @@ include 'carrito.php';
                         <h3>$<?php echo number_format($total, 2); ?></h3>
                     </td>
                 </tr>
+
+                <tr>
+                <td colspan="5">
+
+                <form action="pagar.php" method="post">
+
+                    <div class="alert alert-success">
+                        
+                <div class="form-group">
+                        <label for="my-input">Correo de contacto: </label>
+                        <input id="email" 
+                        name="email" 
+                        class="form-control" type="email" 
+                        placeholder="Ingrese su correo"
+                        required="true">
+                    </div>
+
+                    <small id="emailHelp" class="form-text text-muted">
+                    La informacion de pago se enviara a este correo.
+                    </small>
+
+                    </div>
+                    <button class="btn btn-primary btn-lg btn-block" 
+                    type="submit"
+                    name="btnAccion"
+                    value="proceder">Proceder a pagar >></button>
+                
+                </form>
+                </td>
+                </tr>
+            
             </tbody>
         </table>
     <?php } else { ?>
