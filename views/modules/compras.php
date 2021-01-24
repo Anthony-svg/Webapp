@@ -20,6 +20,7 @@ include 'carrito.php';
         <h1><img id="Logo1" img src="../../images/Logo1.jpg" width="100" height="100"></h1>
     </header>
     <?php
+    
     require_once("../../models/isLogin.php");
 
     if ($estado) {
@@ -45,9 +46,8 @@ include 'carrito.php';
         <nav>
             <ul>
                 <li> <a href="inicio.php"> Inicio</a> </li>
-                <li> <a href="compras.php">Compras</a> </li>
+                <li> <a href="nosotros.php">Nosotros</a> </li>
                 <li> <a href="contactanos.php"> Contactenos</a> </li>
-                <li> <a href="mostrarCarrito.php">Carrito(<?php echo (empty($_SESSION['CARRITO']))?0:count($_SESSION['CARRITO']); ?>)</a> </li>
                 <li> <a href="login.php"> Iniciar Sesión</a> </li>
             </ul>
         </nav>

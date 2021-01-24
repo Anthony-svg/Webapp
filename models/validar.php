@@ -3,9 +3,9 @@ $usuario=$_POST['usuario'];
 $contraseña=$_POST['contraseña'];
 $_SESSION['usuario']=$usuario;
 
-$conexion=mysqli_connect("localhost","root","","base_uta");
+$conexion=mysqli_connect("localhost","root","","tienda");
 
-$consulta="SELECT*FROM usuarios where CED_USU='$usuario' and CLAVE_USU='$contraseña'";
+$consulta="SELECT*FROM usuarios where NOM_USU='$usuario' and CLAVE_USU='$contraseña'";
 
 $resultado=mysqli_query($conexion,$consulta);
 

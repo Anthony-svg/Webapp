@@ -10,6 +10,7 @@
         <h1><img id="Logo1" img src="images/Logo1.jpg" width="100" height="100"></h1>
 </header> 
 <?php
+            session_start();
             require_once("models/isLogin.php");
 
             if($estado){         
@@ -19,8 +20,9 @@
                         <ul>
                         <li> <a href="views\modules\inicio.php"> Inicio</a> </li>
                         <li> <a href="views\modules\nosotros.php"> Nosotros</a> </li>
-                        <li> <a href="views\modules\compras.php"> Compras</a> </li>
+                        
                         <li> <a href="views\modules\contactanos.php"> Contactenos</a> </li>
+                        <li> <a href="views/modules/compras.php">Compras</a> </li>
                         
                         <br><br>
                         <li> <a href="models\logout.php"> Cerrar sesión</a> </li>
@@ -40,7 +42,8 @@
                     <li> <a href="views\modules\inicio.php"> Inicio</a> </li>
                     <li> <a href="views\modules\nosotros.php"> Nosotros</a> </li>
                     <li> <a href="views\modules\contactanos.php"> Contactenos</a> </li>
-                    <li> <a href="views\modules\compras.php"> Compras</a> </li>
+                    <br><br>
+                    <li> <a href="views/modules/login.php"> Iniciar sesión</a> </li>
                    
                 
                 </ul>
@@ -57,14 +60,7 @@
 
 
 <section>
-    <div class="container">
-    <div class="webdesigntuts-workshop">
-	<form action="" method="">		    
-		<input type="Buscar" placeholder="Buscando...">		    	
-		<button>Buscar</button>
-    </form>
-    </div>
-    </div>
+    
     <br><br>
 
     <div class="container">
