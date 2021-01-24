@@ -10,9 +10,25 @@ header{
     padding:5px;
     font-size: 25;
     background:white;
-   
 }
 
+.category_list{
+	background: #00d166;
+	width:25%;
+	max-width:100px;
+	height:0;
+	padding-top:25%;
+	position:relative;
+}
+
+.category_item .category_item{
+	background: #00d166;
+	width:25%;
+	max-width:100px;
+	height:0;
+	padding-top:25%;
+	position:relative;
+}
 nav{
     position:relative;
     margin:auto;
@@ -43,7 +59,7 @@ section{
     height:auto;
     weight:auto;
     padding:5px;
-    background:black;
+    background:rgb(255, 255, 255);
 }
 
 article{
@@ -52,16 +68,6 @@ article{
     position: relative;
     background:black;
     padding: 5px;
-}
-
-
-p1 {
-    color: white;
-    font-family: fantasy;
-    font-size: 20px;
-    font-weight: bold;
-    position: relative;
-    text-align: center;
 }
 
 .container .card p{
@@ -125,8 +131,6 @@ p1 {
     font-size: .85rem;
     position: relative;
   }
-  
-
 
 .container .card p{
     color: white;
@@ -147,7 +151,7 @@ p1 {
 	height: auto;
 	position: relative;
 	text-align: center;
-	width: auto%;
+	width: auto;
 }
 
 .webdesigntuts-workshop:before,
