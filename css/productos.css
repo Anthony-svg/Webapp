@@ -159,3 +159,7 @@ section div.absolute p{
   body div.reset {
     clear: both;
   }
+
+  body{
+      text-align: center;
+  }

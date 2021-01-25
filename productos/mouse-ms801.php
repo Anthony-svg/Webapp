@@ -10,16 +10,50 @@
     <header>
         <h1><img id="Logo1" img src="../images/Logo1.jpg" width="100" height="100"></h1>
         </header> 
-    <nav>
-            <ul>
-                <li> <a href="../index.php?action=inicio"> Inicio</a> </li>
-                <li> <a href="../index.php?action=nosotros"> Nosotros</a> </li>
-                <li> <a href="../index.php?action=servicios"> Servicios</a> </li>
-                <li> <a href="../index.php?action=contactanos"> Contactenos</a> </li>
+    	<?php
+            session_start();
+            require_once("../models/isLogin.php");
 
-			</ul>
-			<br>
-</nav>
+            if($estado){         
+                   
+                    ?>
+                        <nav>
+                        <ul>
+                        <li> <a href="../views\modules\inicio.php"> Inicio</a> </li>
+                        <li> <a href="../views\modules\nosotros.php"> Nosotros</a> </li>
+                        
+                        <li> <a href="../views\modules\contactanos.php"> Contactenos</a> </li>
+                        <li> <a href="../views/modules/compras.php">Compras</a> </li>
+                        
+                        <br><br>
+                        <li> <a href="../models\logout.php"> Cerrar sesión</a> </li>
+                       
+                    
+                    </ul>
+                </nav>
+            <br><br>
+        <?php
+         echo "Bienvenido/a ";
+         echo $_SESSION['nom'];
+            }else{
+            
+                ?>
+                    <nav>
+                    <ul>
+                    <li> <a href="../views\modules\inicio.php"> Inicio</a> </li>
+                    <li> <a href="../views\modules\nosotros.php"> Nosotros</a> </li>
+                    <li> <a href="../views\modules\contactanos.php"> Contactenos</a> </li>
+                    <br><br>
+                    <li> <a href="../views/modules/login.php"> Iniciar sesión</a> </li>
+                   
+                
+                </ul>
+            </nav>
+
+                <?php
+                
+            }
+        ?>
 		<div class="noticia">
 		<img class="izquierda" src="../images/Producto5.jpg" >
 <aside>MOUSE GAMING ÓPTICO REGULABLE HV-MS801
