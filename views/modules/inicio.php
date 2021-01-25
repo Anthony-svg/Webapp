@@ -3,7 +3,6 @@
     <meta charset="UTF-8">
     <title>Inicio</title>
     <link rel=StyleSheet href="css/template.css" typr="text/css">
-    <link rel=StyleSheet href="css/botones.css" typr="text/css"> 
     <script src="js/jquery-3.2.1.js"></script>
     <script src="js/filtro.js"></script>
 </head>
@@ -24,7 +23,7 @@
     </div>
 
     <br><br>
-                <div class="category_list">
+                <div class="category_list" >
                 <a href="#" class="category_item" category="all">Todo</a>
                 <a href="#" class="category_item" category="teclados">Teclados</a>
 				<a href="#" class="category_item" category="mouses">Mouses</a>

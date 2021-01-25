@@ -13,22 +13,20 @@ header{
 }
 
 .category_list{
-	background: #00d166;
-	width:25%;
-	max-width:100px;
-	height:0;
-	padding-top:25%;
-	position:relative;
+	background: #00d166;	
+	text-align: center;
+	font-size: larger;	
 }
 
-.category_item .category_item{
-	background: #00d166;
-	width:25%;
-	max-width:100px;
-	height:0;
-	padding-top:25%;
-	position:relative;
+.category_list .category_item{	    
+	width:auto;
+	text-align: center;
+    line-height:50px;
+	list-style:none;
+	color:white;   
+	text-decoration: none; 	
 }
+
 nav{
     position:relative;
     margin:auto;
@@ -59,7 +57,7 @@ section{
     height:auto;
     weight:auto;
     padding:5px;
-    background:rgb(255, 255, 255);
+    background:rgb(0, 0, 0);
 }
 
 article{
