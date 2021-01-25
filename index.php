@@ -3,6 +3,8 @@
     <meta charset="UTF-8">
     <title>FK Gamer</title>
     <link rel=StyleSheet href="css/template.css" typr="text/css">
+    <script src="bootstrap/js/jquery-3.2.1.js"></script>
+    <script src="bootstrap/js/filtro.js"></script>
 </head>
 
 <body>
@@ -57,7 +59,13 @@
         <h1> ÚLTIMOS PRODUCTOS </h1>
 
 </header>
-
+<div class="category_list" >
+                <a href="#" class="category_item" category="all">Todo</a>
+                <a href="#" class="category_item" category="teclados">Teclados</a>
+				<a href="#" class="category_item" category="mouses">Mouses</a>
+                <a href="#" class="category_item" category="auriculares">Audifonos</a>
+                <a href="#" class="category_item" category="sillas">Sillas</a>
+                </div>
 
 <section>
     
@@ -65,7 +73,7 @@
 
     <div class="container">
             <div class="col-3">
-                <div class="card">
+                <div class="card" category="auriculares">
                     <img src="images/Producto1.jpg">
                     <p>AURICULAR GAMING HV-H2158U CONEXIÓN USB 7.1</p>
                     <br>
@@ -75,7 +83,7 @@
 
 
             <div class="col-3">
-                <div class="card">
+                <div class="card" category="mouses">
                     <img src="images/Producto4.jpg">
                     <p>MOUSE GAMING ÓPTICO REGULABLE HV-MS783</p>
                     <br>
@@ -84,7 +92,7 @@
             </div>
 
             <div class="col-3">
-                <div class="card">
+                <div class="card" category="mouses">
                     <img src="images/Producto7.jpg">
                     <p>MOUSE PAD GAMER GAMING HV-MP837</p>
                     <br>
@@ -93,7 +101,7 @@
             </div>
 
             <div class="col-3">
-                <div class="card">
+                <div class="card" category="sillas">
                     <img src="images/Producto8.jpg">
                     <p>SILLA GAMER HV-GC901 EN VARIOS COLORES</p>
                     <br>
@@ -102,7 +110,7 @@
             </div>
 
             <div class="col-3">
-                <div class="card">
+                <div class="card" category="teclados">
                     <img src="images/Producto9.jpg">
                     <p>TECLADO GAMING HV-KB417L RETROILUMINADO</p>
                     <br>

@@ -10,7 +10,11 @@
     <header>
         <h1><img id="Logo1" img src="../../images/Logo1.jpg" width="100" height="100"></h1>
     </header>
+
+    
+            
     <?php
+
     session_start();
     require_once("../../models/isLogin.php");
     
@@ -50,12 +54,19 @@
 
     }
     ?>
+
     <header>
         <h1> ÚLTIMOS PRODUCTOS </h1>
 
     </header>
 
-
+<div class="category_list" >
+                <a href="#" class="category_item" category="all">Todo</a>
+                <a href="#" class="category_item" category="teclados">Teclados</a>
+				<a href="#" class="category_item" category="mouses">Mouses</a>
+                <a href="#" class="category_item" category="auriculares">Audifonos</a>
+                <a href="#" class="category_item" category="sillas">Sillas</a>
+                </div>
     <section>
         
         <br><br>

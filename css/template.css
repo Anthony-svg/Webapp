@@ -9,9 +9,15 @@ header{
     text-align:center;
     padding:5px;
     font-size: 25;
-    background:white;
+	background:white;
+	
    
 }
+
+h1{
+	font-family: Comic Sans MS, Comic Sans, cursive;
+}
+
 
 nav{
     position:relative;
@@ -23,8 +29,12 @@ nav{
 nav ul{
     position:relative;
     margin:auto;
-    width:50%;
-    text-align:center;
+	width:50%;
+	width:auto%;
+    height:auto;
+	
+	text-align:center;
+	font-family: Comic Sans MS, Comic Sans, cursive;
    
 }
 nav ul li{
@@ -66,6 +76,16 @@ p1 {
     font-weight: bold;
     position: relative;
     text-align: center;
+}
+
+.category_list{
+	font-family: Comic Sans MS, Comic Sans, cursive;
+	line-height:30px;
+	height:auto;
+    weight:auto;
+	position: relative;
+	line-height:30px;
+	margin: auto;
 }
 
 .container .card p{
