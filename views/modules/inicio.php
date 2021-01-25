@@ -24,7 +24,7 @@
                 
                 <li> <a href="contactanos.php"> Contactenos</a> </li>
                 <li> <a href="compras.php">Compras</a> </li>
-                <br><br>
+                
                 <li> <a href="../../models/logout.php"> Cerrar Sesión</a> </li>
             </ul>
         </nav>
@@ -41,7 +41,7 @@
                 <li> <a href="nosotros.php"> Nosotros</a> </li>
                 
                 <li> <a href="contactanos.php"> Contactenos</a> </li>
-                <br><br>
+                
                 <li> <a href="login.php"> Iniciar Sesión</a> </li>
             </ul>
         </nav>

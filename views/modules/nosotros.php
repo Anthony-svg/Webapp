@@ -26,7 +26,6 @@ session_start();
                         
                         <li> <a href="contactanos.php"> Contactenos</a> </li>
                         <li> <a href="compras.php"> Compras</a> </li>
-                        <br><br>
                         <li> <a href="../../models/logout.php"> Cerrar Sesión</a> </li>
                        
                     
@@ -46,7 +45,7 @@ session_start();
                     
                     <li> <a href="contactanos.php"> Contactenos</a> </li>
 
-                    <br><br>
+                    
                     <li> <a href="login.php"> Iniciar Sesión</a> </li>
                    
                 
@@ -69,7 +68,7 @@ session_start();
                                 <section id="content" class="page-content page-cms page-cms-4">
                                     <p style="text-align: justify;">
                                     <span style="font-family:'times new roman', times;font-size:12pt;">
-                                        <strong>Nombre de la empresa</strong>
+                                        <strong>FK Gamer</strong>
                                         ,empresa dedicadas a la venta de productos y servicios informáticos con los 
                                         más altos estándares de calidad a precios muy bajos, nuestra 
                                         empresa iniciada en el año 2006 nos ha dado hasta ahora más de 14 
@@ -88,6 +87,9 @@ session_start();
                                         <strong>Nuestra Misión</strong>
                                         </span>
                                     </p>
+                                    <p>
+                                    <img src="https://compunixec.com/wp-content/uploads/2018/03/MISION_au10vx-300x220.jpg">
+                                    </p>
                                     <p style="text-align: justify;">
                                         <span style="font-family: 'Times New Roman'; font-size: 12pt;">
                                             Ofrecer tecnología de punta a precios muy bajos, brindarles a nuestros 
@@ -104,6 +106,9 @@ session_start();
                                         <span style="font-family: 'Times New Roman', Times, serif; font-size: 12pt;">
                                         <strong>Nuestra Visión</strong>
                                         </span>
+                                    </p>
+                                    <p>
+                                    <img src="https://compunixec.com/wp-content/uploads/2018/03/Vision_xhnu5d-300x201.jpg">
                                     </p>
                                     <p style="text-align: justify;">
                                         <span style="font-family: 'Times New Roman'; font-size: 12pt;">
