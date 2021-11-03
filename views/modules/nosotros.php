@@ -4,7 +4,8 @@
     <meta name="viewport" content="width=device-width, user-scalable = no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, shrink-to-fit=no">
     <title>Nosotros</title>
     <link rel=StyleSheet href="../../css/nosotros.css" typr="text/css">
-   
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     
 </head>
 
@@ -19,36 +20,37 @@ session_start();
             if($estado){         
                    
                     ?>
-                        <nav>
+                         <nav class="navbar navbar-dark bg-dark">
+                        <div style="color:white;">
+                    <?php 
+                    echo "Bienvenido/a ";
+                    echo $_SESSION['nom'];
+                    ?>
+                    </div>
+    
                         <ul>
-                        <li> <a href="inicio.php"> Inicio</a> </li>
-                        <li> <a href="nosotros.php"> Nosotros</a> </li>
+                        <li class="nav-item"> <a class="nav-link" href="inicio.php"> Inicio</a> </li>
+                        <li class="nav-item"> <a class="nav-link" href="nosotros.php"> Nosotros</a> </li>
                         
-                        <li> <a href="contactanos.php"> Contactenos</a> </li>
-                        <li> <a href="compras.php"> Compras</a> </li>
-                        <li> <a href="../../models/logout.php"> Cerrar Sesión</a> </li>
-                       
-                    
+                        <li class="nav-item"> <a class="nav-link" href="contactanos.php"> Contactenos</a> </li>
+                        <li class="nav-item"> <a class="nav-link" href="compras.php">Compras</a> </li>                                                                      
                     </ul>
+                    <div class="d-flex">
+                            <button class="btn btn-outline-success" onclick="location.href='..\\..\\models\\logout.php'" type="button">Cerrar Sesión</button>
+                        </div>
                 </nav>
             <br><br>
         <?php
-         echo "Bienvenido/a ";
-         echo $_SESSION['nom'];
+     
             }else{
             
                 ?>
-                    <nav>
+                    <nav class="navbar navbar-dark bg-dark">
                     <ul>
-                    <li> <a href="inicio.php"> Inicio</a> </li>
-                    <li> <a href="nosotros.php"> Nosotros</a> </li>
-                    
-                    <li> <a href="contactanos.php"> Contactenos</a> </li>
-
-                    
-                    <li> <a href="login.php"> Iniciar Sesión</a> </li>
-                   
-                
+                    <li class="nav-item"> <a class="nav-link" href="inicio.php"> Inicio</a> </li>
+                    <li class="nav-item"> <a class="nav-link" href="nosotros.php"> Nosotros</a> </li>
+                    <li class="nav-item"> <a class="nav-link" href="contactanos.php"> Contactenos</a> </li>
+                    <li class="nav-item"> <a class="nav-link" href="login.php"> Iniciar sesión</a> </li>                                   
                 </ul>
             </nav>
 
@@ -63,7 +65,7 @@ session_start();
             <section id="wrapper">
                 <div class="container">
                     <div id="columns_inner">
-                        <div id="content-wrapper" class="left-column col-xs-12 col-sm-8 col-md-9">
+                        <div id="content-wrapper">
                             <section id="main">
                                 <section id="content" class="page-content page-cms page-cms-4">
                                     <p style="text-align: justify;">
@@ -87,9 +89,11 @@ session_start();
                                         <strong>Nuestra Misión</strong>
                                         </span>
                                     </p>
-                                    <p>
+                                    <div class="row justify-content-center" >
+                                        <div class="col-sm-3">
                                     <img src="https://compunixec.com/wp-content/uploads/2018/03/MISION_au10vx-300x220.jpg">
-                                    </p>
+                                    </div>
+                                    </div>
                                     <p style="text-align: justify;">
                                         <span style="font-family: 'Times New Roman'; font-size: 12pt;">
                                             Ofrecer tecnología de punta a precios muy bajos, brindarles a nuestros 
@@ -107,9 +111,11 @@ session_start();
                                         <strong>Nuestra Visión</strong>
                                         </span>
                                     </p>
-                                    <p>
-                                    <img src="https://compunixec.com/wp-content/uploads/2018/03/Vision_xhnu5d-300x201.jpg">
-                                    </p>
+                                    <div class="row justify-content-center" >
+                                        <div class="col-sm-3">
+                                        <img src="https://compunixec.com/wp-content/uploads/2018/03/Vision_xhnu5d-300x201.jpg">
+                                    </div>
+                                    </div>                                
                                     <p style="text-align: justify;">
                                         <span style="font-family: 'Times New Roman'; font-size: 12pt;">
                                             Ser una empresa lider en distribución a nivel nacional de productos 

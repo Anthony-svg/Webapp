@@ -36,13 +36,7 @@ nav ul li a{
     text-decoration:none;
 }
 
-section{
-    position:relative;
-    height:auto;
-    weight:auto;
-    padding:5px;
-    background:rgb(247, 247, 247);
-}
+
 
 article{
     position: relative;

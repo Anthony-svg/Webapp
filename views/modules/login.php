@@ -13,7 +13,7 @@
 
 <body>
 <div class="login">
-	<h1>Login</h1>
+<h1><img id="Logo1" img src="../../images/Logo1.jpg" width="100" height="100"></h1>
  
     <form action="../../models/validar.php" method="post">
     	

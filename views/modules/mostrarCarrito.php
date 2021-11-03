@@ -24,32 +24,40 @@ include 'carrito.php';
     if ($estado) {
 
     ?>
-        <nav>
-            <ul>
-                <li> <a href="inicio.php">Inicio</a> </li>
-                <li> <a href="nosotros.php">Nosotros</a> </li>
-                <li> <a href="compras.php">Compras</a> </li>
-                <li> <a href="contactanos.php"> Contactenos</a> </li>
-                <li> <a href="mostrarCarrito.php">Carrito(<?php echo (empty($_SESSION['CARRITO'])) ? 0 : count($_SESSION['CARRITO']); ?>)</a> </li>
-                <li> <a href="../../models\logout.php"> Cerrar sesión</a> </li>
-            </ul>
-        </nav>
-        <br><br>
-    <?php
-        echo "Bienvenido/a ";
-        echo $_SESSION['nom'];
-    } else {
-
-    ?>
-        <nav>
-            <ul>
-                <li> <a href="inicio.php"> Inicio</a> </li>
-                <li> <a href="compras.php">Compras</a> </li>
-                <li> <a href="contactanos.php"> Contactenos</a> </li>
-                <li> <a href="mostrarCarrito.php">Carrito(<?php echo (empty($_SESSION['CARRITO'])) ? 0 : count($_SESSION['CARRITO']); ?>)</a> </li>
-                <li> <a href="login.php"> Iniciar Sesión</a> </li>
-            </ul>
-        </nav>
+        <nav class="navbar navbar-dark bg-dark">
+                        <div style="color:white;">
+                    <?php 
+                    echo "Bienvenido/a ";
+                    echo $_SESSION['nom'];
+                    ?>
+                    </div>
+    
+                        <ul>
+                        <li class="nav-item"> <a class="nav-link" href="inicio.php"> Inicio</a> </li>
+                        <li class="nav-item"> <a class="nav-link" href="nosotros.php"> Nosotros</a> </li>
+                        
+                        <li class="nav-item"> <a class="nav-link" href="contactanos.php"> Contactenos</a> </li>
+                        <li class="nav-item"> <a class="nav-link" href="compras.php">Compras</a> </li>
+                        <li class="nav-item"> <a class="nav-link"> <a href="mostrarCarrito.php">Carrito(<?php echo (empty($_SESSION['CARRITO']))?0:count($_SESSION['CARRITO']); ?>)</a> </li>                                                                      
+                    </ul>
+                    <div class="d-flex">
+                            <button class="btn btn-outline-success" onclick="location.href='..\\..\\models\\logout.php'" type="button">Cerrar Sesión</button>
+                        </div>
+                </nav>
+            <br><br>
+        <?php
+     
+            }else{
+            
+                ?>
+                    <nav class="navbar navbar-dark bg-dark">
+                    <ul>
+                    <li class="nav-item"> <a class="nav-link" href="inicio.php"> Inicio</a> </li>
+                    <li class="nav-item"> <a class="nav-link" href="nosotros.php"> Nosotros</a> </li>
+                    <li class="nav-item"> <a class="nav-link" href="contactanos.php"> Contactenos</a> </li>
+                    <li class="nav-item"> <a class="nav-link" href="login.php"> Iniciar sesión</a> </li>                                   
+                </ul>
+            </nav>
 
     <?php
 
