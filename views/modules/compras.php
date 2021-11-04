@@ -86,8 +86,10 @@ include 'carrito.php';
             //print_r($listaProductos);
             ?>
 
-            <?php foreach ($listaProductos as $producto) { ?>
-
+            <?php 
+                foreach ($listaProductos as $producto) { 
+                    if (!empty($_SESSION['nom'])) {?>
+                
                 <div class="col-3">
                     <div class="card">
                         <img title="<?php echo $producto['NOM_PROD']; ?>" 
@@ -117,7 +119,12 @@ include 'carrito.php';
                     </div>
                 </div>
 
-            <?php } ?>
+            <?php }else{
+                header("Status: 301 Moved Permanently");
+                header("Location: inicio.php");
+               
+            } 
+            }  ?>
 
         </div>
 

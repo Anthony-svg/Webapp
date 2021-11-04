@@ -67,7 +67,9 @@ include 'carrito.php';
     <br>
     <h3>Lista del Carrito</h3>
     <?php
-    if (!empty($_SESSION['CARRITO'])) { ?>
+     if (!empty($_SESSION['nom'])) {
+    if (!empty($_SESSION['CARRITO'])) {  
+       ?>
         <table class="table table-light table-bordered">
             <tbody>
                 <tr>
@@ -143,11 +145,17 @@ include 'carrito.php';
             
             </tbody>
         </table>
-    <?php } else { ?>
+    <?php 
+
+        } else { ?>
         <div class="alert alert-success">
             No hay productos en el carrito...
         </div>
-    <?php } ?>
+    <?php }
+    }else{
+        header("Status: 301 Moved Permanently");
+        header("Location: inicio.php");
+        } ?>
 
 </body>
 
